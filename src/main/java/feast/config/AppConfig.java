@@ -15,12 +15,12 @@ public class AppConfig {
     }
 
     @Bean
-    public static Pig4 getPig(Lamb5 lamb) {
-        return new Pig4(lamb);
+    public static Lamb5 getLamb(Goat6 goat) {
+        return new Lamb5(goat);
     }
 
     @Bean
-    public static Horse7 getHorse(Camel8 camel) {
-        return new Horse7(camel);
+    public static Camel8 getCamel() {
+        return new Camel8();
     }
 }
